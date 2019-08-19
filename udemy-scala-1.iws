@@ -23,7 +23,12 @@
     <option name="FILTER_BY_CURRENT_PROJECT" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="007dfe88-dace-424f-aa90-163df01d6e1b" name="Default Changelist" comment="" />
+    <list default="true" id="007dfe88-dace-424f-aa90-163df01d6e1b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/lectures/part02_oop/Generics.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/exercises/MyList.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/exercises/MyList.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/udemy-scala-1.ipr" beforeDir="false" afterPath="$PROJECT_DIR$/udemy-scala-1.ipr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/udemy-scala-1.iws" beforeDir="false" afterPath="$PROJECT_DIR$/udemy-scala-1.iws" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -44,46 +49,55 @@
     <session id="165882105">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="5" />
+          <entry key="project.closed" value="6" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.3" value="1" />
-          <entry key="project.open.time.4" value="4" />
-          <entry key="project.opened" value="6" />
+          <entry key="project.open.time.4" value="5" />
+          <entry key="project.opened" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="java" value="1" />
-          <entry key="scala" value="17" />
+          <entry key="scala" value="19" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="JAVA" value="1" />
-          <entry key="Scala" value="17" />
+          <entry key="Scala" value="19" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="java" value="87" />
-          <entry key="scala" value="17471" />
+          <entry key="scala" value="18893" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JAVA" value="87" />
-          <entry key="Scala" value="17471" />
+          <entry key="Scala" value="18893" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/lectures/part02_oop/Generics.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="451">
+              <caret line="57" column="5" selection-start-line="57" selection-start-column="5" selection-end-line="57" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/exercises/MyList.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1434">
-              <caret line="48" column="10" selection-start-line="48" selection-start-column="10" selection-end-line="48" selection-end-column="10" />
+            <state relative-caret-position="505">
+              <caret line="63" column="25" lean-forward="true" selection-start-line="63" selection-start-column="25" selection-end-line="63" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -101,6 +115,9 @@
     <replaceStrings>
       <replace />
     </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
     <option name="projectSyncType">
@@ -129,20 +146,25 @@
         <option value="$PROJECT_DIR$/src/lectures/part02_oop/Inheritance.scala" />
         <option value="$PROJECT_DIR$/src/lectures/part02_oop/AbstractDataTypes.scala" />
         <option value="$PROJECT_DIR$/src/exercises/MyList.scala" />
+        <option value="$PROJECT_DIR$/src/lectures/part02_oop/Generics.scala" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
     <option name="x" value="66" />
-    <option name="y" value="24" />
+    <option name="y" value="23" />
     <option name="width" value="1854" />
     <option name="height" value="1177" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -167,11 +189,17 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="lectures" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="udemy-scala-1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="udemy-scala-1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="lectures" type="462c0819:PsiDirectoryNode" />
+              <item name="part02_oop" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -294,7 +322,7 @@
     <frame x="66" y="23" width="1854" height="1177" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14845474" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15011038" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -421,10 +449,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/lectures/part02_oop/Generics.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="451">
+          <caret line="57" column="5" selection-start-line="57" selection-start-column="5" selection-end-line="57" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/exercises/MyList.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1434">
-          <caret line="48" column="10" selection-start-line="48" selection-start-column="10" selection-end-line="48" selection-end-column="10" />
+        <state relative-caret-position="505">
+          <caret line="63" column="25" lean-forward="true" selection-start-line="63" selection-start-column="25" selection-end-line="63" selection-end-column="25" />
         </state>
       </provider>
     </entry>
