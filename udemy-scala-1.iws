@@ -24,9 +24,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="007dfe88-dace-424f-aa90-163df01d6e1b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/lectures/part02_oop/Generics.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lectures/part02_oop/AnonymousClasses.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/exercises/MyList.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/exercises/MyList.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/udemy-scala-1.ipr" beforeDir="false" afterPath="$PROJECT_DIR$/udemy-scala-1.ipr" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/udemy-scala-1.iws" beforeDir="false" afterPath="$PROJECT_DIR$/udemy-scala-1.iws" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -49,46 +48,47 @@
     <session id="165882105">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="6" />
+          <entry key="project.closed" value="7" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.4" value="5" />
-          <entry key="project.opened" value="7" />
+          <entry key="project.open.time.5" value="1" />
+          <entry key="project.opened" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="java" value="1" />
-          <entry key="scala" value="19" />
+          <entry key="scala" value="28" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="JAVA" value="1" />
-          <entry key="Scala" value="19" />
+          <entry key="Scala" value="28" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="java" value="87" />
-          <entry key="scala" value="18893" />
+          <entry key="scala" value="20799" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JAVA" value="87" />
-          <entry key="Scala" value="18893" />
+          <entry key="Scala" value="20799" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/lectures/part02_oop/Generics.scala">
+        <entry file="file://$PROJECT_DIR$/src/lectures/part02_oop/AnonymousClasses.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="451">
-              <caret line="57" column="5" selection-start-line="57" selection-start-column="5" selection-end-line="57" selection-end-column="5" />
+            <state relative-caret-position="570">
+              <caret line="38" column="51" selection-start-line="38" selection-start-column="51" selection-end-line="38" selection-end-column="51" />
             </state>
           </provider>
         </entry>
@@ -96,8 +96,17 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/exercises/MyList.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="505">
-              <caret line="63" column="25" lean-forward="true" selection-start-line="63" selection-start-column="25" selection-end-line="63" selection-end-column="25" />
+            <state relative-caret-position="475">
+              <caret line="141" column="54" lean-forward="true" selection-start-line="141" selection-start-column="54" selection-end-line="141" selection-end-column="54" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/lectures/part02_oop/AbstractDataTypes.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="420">
+              <caret line="28" column="48" selection-start-line="28" selection-start-column="48" selection-end-line="28" selection-end-column="48" />
             </state>
           </provider>
         </entry>
@@ -145,8 +154,9 @@
         <option value="$PROJECT_DIR$/src/lectures/part02_oop/InheritanceAndTraits.scala" />
         <option value="$PROJECT_DIR$/src/lectures/part02_oop/Inheritance.scala" />
         <option value="$PROJECT_DIR$/src/lectures/part02_oop/AbstractDataTypes.scala" />
-        <option value="$PROJECT_DIR$/src/exercises/MyList.scala" />
         <option value="$PROJECT_DIR$/src/lectures/part02_oop/Generics.scala" />
+        <option value="$PROJECT_DIR$/src/lectures/part02_oop/AnonymousClasses.scala" />
+        <option value="$PROJECT_DIR$/src/exercises/MyList.scala" />
       </list>
     </option>
   </component>
@@ -164,7 +174,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -200,7 +210,7 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -225,6 +235,19 @@
   <component name="RunManager" selected="Application.ListTest">
     <configuration name="AbstractDataTypes" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="lectures.part02_oop.AbstractDataTypes" />
+      <module name="udemy-scala-1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lectures.part02_oop.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AnonymousClasses" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="lectures.part02_oop.AnonymousClasses" />
       <module name="udemy-scala-1" />
       <extension name="coverage">
         <pattern>
@@ -262,19 +285,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MethodNotations" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="lectures.part02_oop.MethodNotations" />
-      <module name="udemy-scala-1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lectures.part02_oop.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Objects" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="lectures.part02_oop.Objects" />
       <module name="udemy-scala-1" />
@@ -289,19 +299,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.MethodNotations" />
       <item itemvalue="Application.Objects" />
       <item itemvalue="Application.InheritanceAndTraits" />
       <item itemvalue="Application.AbstractDataTypes" />
       <item itemvalue="Application.ListTest" />
+      <item itemvalue="Application.AnonymousClasses" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.ListTest" />
+        <item itemvalue="Application.AnonymousClasses" />
         <item itemvalue="Application.AbstractDataTypes" />
         <item itemvalue="Application.InheritanceAndTraits" />
         <item itemvalue="Application.Objects" />
-        <item itemvalue="Application.MethodNotations" />
       </list>
     </recent_temporary>
   </component>
@@ -319,17 +329,16 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="66" y="23" width="1854" height="1177" extended-state="6" />
-    <editor active="true" />
+    <frame x="66" y="23" width="1854" height="1177" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15011038" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.151766" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.2562212" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.2562212" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.26451612" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -338,7 +347,7 @@
       <window_info anchor="bottom" id="TeamCity" order="8" />
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.32903227" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.20645161" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -414,10 +423,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/lectures/part02_oop/OOBasics.scala">
+    <entry file="file://$PROJECT_DIR$/src/lectures/part02_oop/Generics.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="446">
-          <caret line="130" column="10" selection-start-line="130" selection-start-column="10" selection-end-line="130" selection-end-column="10" />
+        <state relative-caret-position="450">
+          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lectures/part02_oop/Objects.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="35" column="29" lean-forward="true" selection-start-line="35" selection-start-column="29" selection-end-line="35" selection-end-column="29" />
         </state>
       </provider>
     </entry>
@@ -428,38 +444,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/lectures/part02_oop/Objects.scala">
+    <entry file="file://$PROJECT_DIR$/src/lectures/part02_oop/Inheritance.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="520">
-          <caret line="35" column="29" lean-forward="true" selection-start-line="35" selection-start-column="29" selection-end-line="35" selection-end-column="29" />
+        <state relative-caret-position="60">
+          <caret line="4" column="18" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lectures/part02_oop/OOBasics.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="535">
+          <caret line="130" column="10" selection-start-line="130" selection-start-column="10" selection-end-line="130" selection-end-column="10" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/lectures/part02_oop/AbstractDataTypes.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="496">
-          <caret line="33" column="26" lean-forward="true" selection-start-line="33" selection-start-column="26" selection-end-line="33" selection-end-column="26" />
+        <state relative-caret-position="420">
+          <caret line="28" column="48" selection-start-line="28" selection-start-column="48" selection-end-line="28" selection-end-column="48" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/lectures/part02_oop/Inheritance.scala">
+    <entry file="file://$PROJECT_DIR$/src/lectures/part02_oop/AnonymousClasses.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="4" column="18" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lectures/part02_oop/Generics.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="451">
-          <caret line="57" column="5" selection-start-line="57" selection-start-column="5" selection-end-line="57" selection-end-column="5" />
+        <state relative-caret-position="570">
+          <caret line="38" column="51" selection-start-line="38" selection-start-column="51" selection-end-line="38" selection-end-column="51" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/exercises/MyList.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="505">
-          <caret line="63" column="25" lean-forward="true" selection-start-line="63" selection-start-column="25" selection-end-line="63" selection-end-column="25" />
+        <state relative-caret-position="475">
+          <caret line="141" column="54" lean-forward="true" selection-start-line="141" selection-start-column="54" selection-end-line="141" selection-end-column="54" />
         </state>
       </provider>
     </entry>
