@@ -24,7 +24,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="007dfe88-dace-424f-aa90-163df01d6e1b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/lectures/part02_oop/AnonymousClasses.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lectures/part02_oop/CaseClasses.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/udemy-scala-1/exercises/Cons.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/udemy-scala-1/exercises/Empty$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/udemy-scala-1/exercises/Empty.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/udemy-scala-1/exercises/ListTest$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/udemy-scala-1/exercises/ListTest$delayedInit$body.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/udemy-scala-1/exercises/ListTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/udemy-scala-1/exercises/MyList.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/exercises/MyList.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/exercises/MyList.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/udemy-scala-1.iws" beforeDir="false" afterPath="$PROJECT_DIR$/udemy-scala-1.iws" afterDir="false" />
     </list>
@@ -48,36 +55,39 @@
     <session id="165882105">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="7" />
+          <entry key="project.closed" value="8" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.4" value="5" />
           <entry key="project.open.time.5" value="1" />
-          <entry key="project.opened" value="8" />
+          <entry key="project.open.time.6" value="1" />
+          <entry key="project.opened" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="java" value="1" />
-          <entry key="scala" value="28" />
+          <entry key="scala" value="29" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="JAVA" value="1" />
-          <entry key="Scala" value="28" />
+          <entry key="Scala" value="29" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="java" value="87" />
-          <entry key="scala" value="20799" />
+          <entry key="scala" value="21741" />
+          <entry key="txt" value="20" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JAVA" value="87" />
-          <entry key="Scala" value="20799" />
+          <entry key="PLAIN_TEXT" value="20" />
+          <entry key="Scala" value="21741" />
         </counts>
       </usages-collector>
     </session>
@@ -87,7 +97,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/lectures/part02_oop/AnonymousClasses.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="570">
+            <state>
               <caret line="38" column="51" selection-start-line="38" selection-start-column="51" selection-end-line="38" selection-end-column="51" />
             </state>
           </provider>
@@ -96,8 +106,17 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/exercises/MyList.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="475">
-              <caret line="141" column="54" lean-forward="true" selection-start-line="141" selection-start-column="54" selection-end-line="141" selection-end-column="54" />
+            <state relative-caret-position="30">
+              <caret line="2" column="8" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/lectures/part02_oop/CaseClasses.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="706">
+              <caret line="43" column="55" selection-start-line="43" selection-start-column="55" selection-end-line="43" selection-end-column="55" />
             </state>
           </provider>
         </entry>
@@ -105,7 +124,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/lectures/part02_oop/AbstractDataTypes.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
+            <state>
               <caret line="28" column="48" selection-start-line="28" selection-start-column="48" selection-end-line="28" selection-end-column="48" />
             </state>
           </provider>
@@ -156,6 +175,7 @@
         <option value="$PROJECT_DIR$/src/lectures/part02_oop/AbstractDataTypes.scala" />
         <option value="$PROJECT_DIR$/src/lectures/part02_oop/Generics.scala" />
         <option value="$PROJECT_DIR$/src/lectures/part02_oop/AnonymousClasses.scala" />
+        <option value="$PROJECT_DIR$/src/lectures/part02_oop/CaseClasses.scala" />
         <option value="$PROJECT_DIR$/src/exercises/MyList.scala" />
       </list>
     </option>
@@ -174,7 +194,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -210,6 +229,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -218,7 +238,7 @@
     <property name="project.structure.last.edited" value="Global Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -259,6 +279,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="CaseClasses" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="lectures.part02_oop.CaseClasses" />
+      <module name="udemy-scala-1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lectures.part02_oop.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="InheritanceAndTraits" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="lectures.part02_oop.Inheritance" />
       <module name="udemy-scala-1" />
@@ -285,33 +318,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Objects" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="lectures.part02_oop.Objects" />
-      <module name="udemy-scala-1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lectures.part02_oop.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
-      <item itemvalue="Application.Objects" />
       <item itemvalue="Application.InheritanceAndTraits" />
       <item itemvalue="Application.AbstractDataTypes" />
       <item itemvalue="Application.ListTest" />
       <item itemvalue="Application.AnonymousClasses" />
+      <item itemvalue="Application.CaseClasses" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.ListTest" />
+        <item itemvalue="Application.CaseClasses" />
         <item itemvalue="Application.AnonymousClasses" />
         <item itemvalue="Application.AbstractDataTypes" />
         <item itemvalue="Application.InheritanceAndTraits" />
-        <item itemvalue="Application.Objects" />
       </list>
     </recent_temporary>
   </component>
@@ -326,19 +346,28 @@
       <option name="presentableId" value="Default" />
       <updated>1563903919514</updated>
     </task>
+    <task id="LOCAL-00001" summary="MyList with generics">
+      <created>1566323090144</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1566323090144</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="66" y="23" width="1854" height="1177" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.151766" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15342164" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.2562212" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.2562212" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.26451612" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -347,7 +376,7 @@
       <window_info anchor="bottom" id="TeamCity" order="8" />
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.20645161" />
+      <window_info active="true" anchor="bottom" id="Messages" order="11" visible="true" weight="0.20645161" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -358,6 +387,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="MyList with generics" />
+    <option name="LAST_COMMIT_MESSAGE" value="MyList with generics" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/playground/JavaPlayground.java">
@@ -458,24 +491,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/lectures/part02_oop/AnonymousClasses.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="38" column="51" selection-start-line="38" selection-start-column="51" selection-end-line="38" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/lectures/part02_oop/AbstractDataTypes.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
+        <state>
           <caret line="28" column="48" selection-start-line="28" selection-start-column="48" selection-end-line="28" selection-end-column="48" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/lectures/part02_oop/AnonymousClasses.scala">
+    <entry file="file://$PROJECT_DIR$/src/lectures/part02_oop/CaseClasses.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="38" column="51" selection-start-line="38" selection-start-column="51" selection-end-line="38" selection-end-column="51" />
+        <state relative-caret-position="706">
+          <caret line="43" column="55" selection-start-line="43" selection-start-column="55" selection-end-line="43" selection-end-column="55" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/exercises/MyList.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="141" column="54" lean-forward="true" selection-start-line="141" selection-start-column="54" selection-end-line="141" selection-end-column="54" />
+        <state relative-caret-position="30">
+          <caret line="2" column="8" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
         </state>
       </provider>
     </entry>
